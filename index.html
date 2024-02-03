@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
     <title>Webpage design</title>
 </head>
 <body>
+    
     <section id="sec">
+        <script></script>
         <div class="images">
         <ul class="div">
             <li class="etabl">
-                <div>
+                <div class="div1" data-aos="fade-left">
                     <img src="univ pic.jpg" alt="">
                     <div class="info">
                         <span>Our University</span>
@@ -22,7 +26,7 @@
                 </div>
             </li>
             <li class="etabl">
-                <div>
+                <div class="div2" data-aos="fade-left" data-aos-delay="500" >
                     <img src="univ1.jpg" alt="">
                     <div class="info">
                         <span>Our University</span>
@@ -33,7 +37,7 @@
                 </div>
             </li>
             <li class="etabl">
-                <div>
+                <div class="div3" data-aos="fade-left" data-aos-delay="1000">
                     <img src="etudiant.jpg" alt="">
                     <div class="info">
                         <span>Students learning</span>
@@ -47,6 +51,31 @@
         </ul>
         </div>
     </section>
+    <footer>
+        <div class="foot">
+        
+        <div class="foot2">
+            <div class="foot1">
+                <p>&copy;Site cree par INSI vague 2 2023-2024</p>
+            </div>
+            <div class="foot3" style="font-size: x-large;">
+                <p><i class="fab fa-twitter"></i></p>
+                <p><i class="fab fa-facebook"></i></p>
+                <p><i class="fab fa-linkedin"></i></p>
+                <p><i class="fab fa-youtube"></i></p>
+            
+            </div>
+        </div>
+        <div class="foot4">
+            <label for="text" style="font-weight: bolder;">Subscribe our newsletter :</label><br>
+            <input type="text" placeholder="Please enter your email" style="padding: 5px;">
+        </div>
+    </div>
 
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
